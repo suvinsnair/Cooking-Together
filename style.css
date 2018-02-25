@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+p{
+    
+    color: black;
+}
+.list{
+    
+    float: right;
+    list-style: none;
+    margin: 20px;   
+}
+.list li{
+    display: inline-block;
+    margin: 10px 5px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    color: black;
+    padding: 5px 10px;
+    font-weight: 750;
+    font-size: 18px;
+}
+body{
+    
+    font-family: sans-serif;
+}
+h1{
+    text-align: center;
+    font-size: 2.4rem;
+    color: mediumslateblue;     
+}
+header{
+  
+   
+}
+.big_one{
+    background-image:url(main_food.jpg) ;
+    height: 100vh;
+    width: inherit;
+    background-size: cover;     
+}
+.small_one{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%,-50%);
+}
+
+.form_case{
+    text-align: center;
+}
+.form_case .text_case   { 
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2rem;
+    padding: 0.3rem;
+}
+.form_case button{
+    display: block; 
+    text-align: center;
+    margin-left: 300px;
+}
+
+.gulamjam{
+    margin-top: 6px;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+.recip{
+    
+    float: left;
+}
+
+
+
+.ingredients{
+    color: aqua;
+    margin-top: auto;
+    letter-spacing: 1px;
+    text-align: right;
+    
+}
+.stepsformaking{
+    margin-top: 19rem;
+    margin-left: 1.1rem;
+    font-family: cursive;
+    color: aqua;    
+}
